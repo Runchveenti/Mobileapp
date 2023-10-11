@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:textColor="#006"
+        android:Layout_marginVertical="26dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your weight in Kg"
+        android:textSize="18dp"
+        android:Layout_marginHorizontal="32dp"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+    />
+    
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:Layout_marginHorizontal="32dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+        android:Layout_marginVertical="15dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your weight in Kg"
+        android:Layout_marginHorizontal="32dp"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:Layout_marginHorizontal="32dp"
+        android:padding="12dp"
+        android:inputType="numberDecimal"
+    />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:Layout_marginHorizontal="32dp"
+        android:Layout_marginVertical="15dp"
+        android:text="Calculate"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="This is your Result"
+        android:textSize="36dp"
+        />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        />
+</LinearLayout>
