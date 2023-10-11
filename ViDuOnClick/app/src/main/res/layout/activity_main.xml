@@ -5,44 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_gravity="center|top"
-    tools:context=".MainActivity">
-
+    android:gravity="center|top"
+    tools:context=".MainActivity" >
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="45dp"
         android:text="Your name"
-        android:textSize="30dp" />
-
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
     <EditText
-        android:id="@+id/editName"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal" />
-
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:id="@+id/edtName"
+        />
     <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:text="Say Hi"
+        android:textSize="20dp"
         android:id="@+id/btnHello"
         android:onClick="XuLyNoiHello"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:text="Say Hi!"
-        android:textSize="20dp"
-        android:layout_marginTop="15dp"
-        android:backgroundTint="#279"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
         />
     <Button
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:text="Nói Xin chào"
+        android:textSize="20dp"
         android:id="@+id/btnXinChao"
         android:onClick="XuLyNoiXinChao"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="99dp"
-        android:text="Nói Xin Chào!"
-        android:textSize="20dp"
-        android:background="#279"
-        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
         />
-
 </LinearLayout>
+
