@@ -16,6 +16,7 @@
         android:textAlignment="center"
         android:padding="12dp"
         android:textColor="#006"
+        android:textStyle="bold"
         android:Layout_marginVertical="26dp"
     />
 
@@ -74,12 +75,25 @@
         android:textAlignment="center"
         android:text="This is your Result"
         android:textSize="36dp"
+        android:onClick="cal_BMI"
+        android:textColor="#ffffff"
         />
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/bmi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="50sp"
+        android:layout_gravity="center horizontal"
+        android:text=""
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center horizontal"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="#9a9a9a"
+        android:textSize="30sp"
         />
 </LinearLayout>
